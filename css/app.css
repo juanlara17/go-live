@@ -1,0 +1,167 @@
+@font-face {
+font-family: AsphaltsDisplay;
+src: url('fonts/AsphaltsDisplay.otf');
+}
+
+body{
+  background: #000000;
+  font-family: 'Bree Serif', serif;
+}
+
+#logo-container h1{
+  font-family: AsphaltsDisplay, serif;
+  font-size: 50px;
+}
+
+#social-container{
+  background-color: #1c3643;
+}
+
+.callout{
+  margin-bottom: 0;
+}
+
+#logo-container .callout{
+  background-color: #ee3f54;
+  color: white;
+}
+
+h1,h2,h3,h4, a, button{
+  font-family: 'Bree Serif', serif;
+}
+
+#menu-container .menu .mayus{
+  text-transform: uppercase;
+}
+
+#menu-container{
+  background-color: #48a19d;
+}
+
+#menu-container li a{
+  color: white;
+}
+
+#menu-container li a:hover,
+#submenu-container li a:hover{
+  color: #f6e15e;
+}
+
+#submenu-container{
+  border: 0;
+}
+
+#submenu-container li a{
+  background-color: #48a19d;
+  color: white;
+}
+
+#tickets-action .callout{
+  background-color: #5373b7;
+  color: white;
+}
+
+#tickets-action .callout button{
+  border: 1px solid white;
+  color: white;
+}
+
+#lineup-container{
+  padding: 1em 0;
+}
+
+
+#lineup-container, .tabs,.tabs-title, .tabs-panel, .tabs-title.is-active a{
+  background-color: #9676af;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.tabs-title a{
+  font-size: 18px;
+  color: #a7fffb;
+}
+
+.tabs-title a:hover{
+  background-color: #9676af;
+  color: white;
+}
+
+.tabs-title{
+  display: inline-block;
+  float: none;
+}
+
+.tabs-content{
+  border: 0;
+}
+
+#lineup-container .orbit-container{
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+#lineup-container .colum:nth-child(odd) figcaption{
+  text-align: right;
+}
+
+.orbit-container {
+    height: auto !important;
+}
+.orbit-slide {
+    max-height: none !important;
+}
+
+#tickets-container{
+  padding: 1em 0;
+  background-color: #f6e15f;
+  color: #161742;
+}
+
+#info-container{
+  background-color: #161742;
+  color: white;
+  padding: 1em 0;
+}
+
+#info-container .info-map{
+  width: 100%;
+}
+
+#suscribete-container{
+  background-color: #ee3f54;
+  color: white;
+  padding: 1em 0;
+}
+
+#suscribete-container h4 small{
+  color: #ffcddc;
+}
+
+#suscribete-container .error-container{
+  font-family: 'Bree Serif', serif;
+}
+
+.is-invalide-input:not(:focus){
+  border-color: rgb();
+  background-color: rgb();
+}
+
+.data-sticky{
+  z-index: 100;
+}
+
+#offCanvas, #offCanvas li a{
+  background-color: black;
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+#offCanvas .drilldown .is-drilldown-submenu-parent > a::after{
+  border-color: transparent transparent transparent white;
+}
+
+#offCanvas .drilldown .js-drilldown-back > a::before{
+  border-color: transparent white transparent transparent;
+}
